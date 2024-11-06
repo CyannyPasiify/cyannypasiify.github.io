@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Wenyang Chen"
-  pronouns         : "he/his"  
+  pronouns         : # "he/his"  
   bio              : "PHD student on medical AI, indie game developer"
   location         : "Wuhan, Hubei, China"
   employer         : "Huazhong University of Sci. and Tech."
@@ -73,6 +73,7 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+  QQ               : 2432152552
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
