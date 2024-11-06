@@ -73,7 +73,7 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
-  QQ               : 2432152552
+  QQ               : "2432152552"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -252,7 +252,7 @@ defaults:
   # _teaching
   - scope:
       path: ""
-      type: teaching
+      type: feeding
     values:
       layout: single
       author_profile: true
