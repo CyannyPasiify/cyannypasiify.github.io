@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "zh-CN"
+locale                   : "en-US"
 title                    : "Cyanny's Home"
 title_separator          : "-"
 name                     : &name "Wenyang Chen"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Wenyang Chen"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "PHD student on medical AI, indie game developer"
   location         : "Wuhan, Hubei, China"
   employer         : "Huazhong University of Sci. and Tech."
   uri              : # URL
@@ -63,7 +63,7 @@ author:
   medium           : # URL
   pinterest        : # Username
   soundcloud       : # Username
-  steam            : "2968894771@qq.com" # Username
+  steam            : "2968894771" # Username
   telegram         : # URL
   tumblr           : # Username
   twitter          : # Username for X / Twitter
