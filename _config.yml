@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-title                    : "Cyanny's Home"
+locale                   : "zh-CN"
+title                    : "个人主页"
 title_separator          : "-"
-name                     : &name "Wenyang Chen"
-description              : &description "Researcher of HUST"
-url                      : https://cyannypasiify.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "陈文扬"
+description              : &description "HUST-计算机技术博士生"
+url                      : "https://cyannypasiify.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "cyannypasiify.github.io"
 
@@ -22,11 +22,11 @@ repository               : "cyannypasiify.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Wenyang Chen"
+  name             : "陈文扬"
   pronouns         : # "he/his"  
-  bio              : "PHD student on medical AI, indie game developer"
-  location         : "Wuhan, Hubei, China"
-  employer         : "Huazhong University of Sci. and Tech."
+  bio              : "医学智能博士研究生，独立游戏开发者"
+  location         : "中国湖北武汉"
+  employer         : "华中科技大学"
   uri              : # URL
   email            : "cyannypasiify@foxmail.com" 
 
