@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "zh-CN"
-title                    : "个人主页"
+title                    : "创作主页"
 title_separator          : "-"
 name                     : &name "陈文扬"
 description              : &description "HUST-计算机技术博士生"
@@ -23,11 +23,11 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "陈文扬"
-  pronouns         : # "he/his"  
+  pronouns         : "先生"
   bio              : "医学AI博士研究生, 独立游戏开发者"
   location         : "武汉, 湖北, 中国"
   employer         : "华中科技大学"
-  uri              : # URL
+  uri              : "https://luxuriant-caption-d5b.notion.site/99745d95b97044a4b1d0731a3bbaf61a?pvs=4" # URL
   email            : "cyannypasiify@foxmail.com" 
 
   # Academic websites
@@ -73,15 +73,16 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+  bilibili         : "379788222" # UID
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
-    title: 'Books'
+    title: '专著'
   manuscripts:
-    title: 'Journal Articles'    
+    title: '期刊论文'
   conferences:
-    title: 'Conference Papers'
+    title: '会议论文'
 
 
 # Review Category - The following the list of review categories and their headings
