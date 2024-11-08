@@ -27,7 +27,7 @@ author:
   bio              : "医学AI博士研究生, 独立游戏开发者"
   location         : "武汉, 湖北, 中国"
   employer         : "华中科技大学"
-  uri              : "https://luxuriant-caption-d5b.notion.site/99745d95b97044a4b1d0731a3bbaf61a?pvs=4" # URL
+  uri              : # URL
   email            : "cyannypasiify@foxmail.com" 
 
   # Academic websites
@@ -74,6 +74,7 @@ author:
   youtube          : # Username
   zhihu            : # Username
   bilibili         : "379788222" # UID
+  notion           : "https://luxuriant-caption-d5b.notion.site/99745d95b97044a4b1d0731a3bbaf61a?pvs=4" # URL
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
