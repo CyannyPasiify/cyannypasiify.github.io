@@ -82,8 +82,6 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
-  artworks:
-    title: 'Artworks'
 
 
 # Review Category - The following the list of review categories and their headings
@@ -94,6 +92,8 @@ review_category:
     title: '卷积算子设计（Convolutional Operator Design）'
   kan:
     title: 'KAN相关（KAN Related）'
+  transformer:
+    title: 'Transformer相关（Transformer Related）'
   mis:
     title: '医学图像分割（Medical Image Segmentation）'
 

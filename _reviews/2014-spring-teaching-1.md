@@ -1,7 +1,7 @@
 ---
 title: "Teaching experience 1"
 collection: reviews
-type: "Undergraduate course"
+category: kan
 permalink: /reviews/2014-spring-teaching-1
 venue: "University 1, Department"
 date: 2014-01-01
