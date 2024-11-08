@@ -1,11 +1,11 @@
 ---
 title: "[Review] 3D Representation Methods: A Survey"
 collection: reviews
-type: "表示学习"
+category: repr
 permalink: /reviews/2024-11-1-3d-representation-methods-a-survey
-venue: "华中科技大学, CBIB"
+venue: "CBIB, 华中科技大学"
 date: 2024-10-28
-location: "湖北, 武汉"
+location: "武汉, 湖北, 中国"
 ---
 
 本文为3D表示方法的综述文章。回顾了3D表示方法的发展历程和最新进展，并归纳总结了这些方法的发展轨迹、创新点以及优缺点。介绍了一些在研究历程中对该领域发展起关键作用的数据集，分析并给出这些数据集的构成特点和对推进此领域研究起到的作用。探讨各种3D表示方法未来可能的研究方向以及发展应用前景。

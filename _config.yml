@@ -24,8 +24,8 @@ author:
   avatar           : "profile.png"
   name             : "陈文扬"
   pronouns         : # "he/his"  
-  bio              : "医学智能博士研究生，独立游戏开发者"
-  location         : "中国湖北武汉"
+  bio              : "医学AI博士研究生, 独立游戏开发者"
+  location         : "武汉, 湖北, 中国"
   employer         : "华中科技大学"
   uri              : # URL
   email            : "cyannypasiify@foxmail.com" 
@@ -84,6 +84,18 @@ publication_category:
     title: 'Conference Papers'
   artworks:
     title: 'Artworks'
+
+
+# Review Category - The following the list of review categories and their headings
+review_category:
+  repr:
+    title: '表示学习（Representation Learning）'
+  conv:
+    title: '卷积算子设计（Convolutional Operator Design）'
+  kan:
+    title: 'KAN相关（KAN Related）'
+  mis:
+    title: '医学图像分割（Medical Image Segmentation）'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
