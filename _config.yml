@@ -88,7 +88,7 @@ publication_category:
 
 # Review Category - The following the list of review categories and their headings
 review_category:
-  repr:
+  "表示学习":
     title: '表示学习（Representation Learning）'
   conv:
     title: '卷积算子设计（Convolutional Operator Design）'
