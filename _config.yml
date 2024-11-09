@@ -78,25 +78,27 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: '专著'
-  manuscripts:
+  '期刊论文':
     title: '期刊论文'
-  conferences:
+  '会议论文':
     title: '会议论文'
+  '专利':
+    title: '专利'
+  '软件著作权':
+    title: '软件著作权'
 
 
 # Review Category - The following the list of review categories and their headings
 review_category:
-  "表示学习":
+  '表示学习':
     title: '表示学习（Representation Learning）'
-  conv:
+  '卷积算子设计':
     title: '卷积算子设计（Convolutional Operator Design）'
-  kan:
+  'KAN':
     title: 'KAN相关（KAN Related）'
-  transformer:
+  'Transformer':
     title: 'Transformer相关（Transformer Related）'
-  mis:
+  '医学图像分割':
     title: '医学图像分割（Medical Image Segmentation）'
 
 # Site Settings
