@@ -66,7 +66,11 @@ layout: default
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
-        {% include page__taxonomy.html %}
+        {% if page.collection == 'reviews' %}
+          {% include page__taxonomy_review.html %}
+        {% else %}
+          {% include page__taxonomy.html %}
+        {% endif %}
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
