@@ -1,8 +1,6 @@
 ---
 title: "[Review] 3D Representation Methods: A Survey"
 collection: reviews
-categories: 
-  - "表示学习"
 type: "表示学习"
 permalink: /reviews/2024-10-28-3d-representation-methods-a-survey
 venue: "CBIB, 华中科技大学"
