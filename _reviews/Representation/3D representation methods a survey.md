@@ -4,7 +4,8 @@ collection: reviews
 category: "表示学习"
 permalink: /reviews/2024-10-28-3d-representation-methods-a-survey
 venue: "CBIB, 华中科技大学"
-date: 2024-10-28
+date: 2024-10-9
+write_date: 2024-10-28
 location: "武汉, 湖北, 中国"
 ---
 

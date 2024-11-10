@@ -1,10 +1,10 @@
 ---
-title: [Review] A 3D boundary-guided hybrid network with convolutions and Transformers
+title: "[Review] A 3D boundary-guided hybrid network with convolutions and Transformers"
 collection: reviews
 category: "医学图像分割"
 permalink: /reviews/2024-10-28-a-3d-boundary-guided-hybrid-network-with-convolutions-and-transformers
 venue: "CBIB, 华中科技大学"
-date: 2024-9
+date: 2024-9-1
 write_date: 2024-10-28
 location: "武汉, 湖北, 中国"
 ---
