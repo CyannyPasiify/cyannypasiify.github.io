@@ -2,11 +2,11 @@
 title: "[Review] A 3D boundary-guided hybrid network with convolutions and Transformers"
 collection: reviews
 category: "医学图像分割"
-permalink: /reviews/2024-10-28-a-3d-boundary-guided-hybrid-network-with-convolutions-and-transformers
-venue: "CBIB, 华中科技大学"
-date: 2024-9-1
-write_date: 2024-10-28
-location: "武汉, 湖北, 中国"
+permalink: /reviews/2024-10-23-a-3d-boundary-guided-hybrid-network-with-convolutions-and-transformers
+publish_venue: "Computers in Biology and Medicine (CBM)"
+publish_date: 2024-09-01
+write_venue: "CBIB, 华中科技大学"
+write_date: 2024-10-23
 ---
 
 精确的肺癌分割能够帮助医生判识肿瘤直径并对肺癌组织进行量化分析。本文提出了一个基于3D-UNet改进的使用3D边界指导的复合网络BGHNet用于肺癌分割，它在自建肺癌数据集、多中心数据集、公开数据集和大规模数据集上都具备良好的分割性能和足够的泛化性能。在BGHNet中，设计了复合式局部-全局上下文特征聚合模块HLGCA，它由并行的卷积分支和Transformer分支构成。卷积分支由金字塔卷积模块（VPConvNeXt）构成，此模块参照Transformer思想改进了卷积结构，因此也能在此分支中兼顾多尺度全局信息；全局分支使用十字交叉窗口Transformer（VSCwin-Transformer），该模块结合了局部偏置和大感受野性质，在降低模型复杂度的同时增强了对局部-全局上下文特征的聚合能力。在解码阶段，设计了边界指导的特征精炼模块（BGFR），该模块能够利用边界信息优化多阶段解码特征，实现了分割区域特征和分割边界特征的有效结合。
@@ -17,7 +17,7 @@ Computers in Biology and Medicine(CBM) 2024
 
 Liu H, Zhuang Y, Song E, et al. A 3D boundary-guided hybrid network with convolutions and Transformers for lung tumor segmentation in CT images[J]. Computers in Biology and Medicine, 2024, 180: 109009.
 
-[[source]](https://doi.org/10.1016/j.compbiomed.2024.109009)
+[[paper]](https://doi.org/10.1016/j.compbiomed.2024.109009) [[code]](https://github.com/Healingl/BGHNet)
 
 ## 贡献点
 

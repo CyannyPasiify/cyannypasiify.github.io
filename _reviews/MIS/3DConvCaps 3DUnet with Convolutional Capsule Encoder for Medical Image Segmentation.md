@@ -1,4 +1,13 @@
-# 3DConvCaps: 3DUnet with Convolutional Capsule Encoder for Medical Image Segmentation
+---
+title: "[Review] 3DConvCaps: 3DUnet with Convolutional Capsule Encoder for Medical Image Segmentation"
+collection: reviews
+category: "医学图像分割"
+permalink: /reviews/2024-04-11-3dconvcaps-3dunet-with-convolutional-capsule-encoder-for-medical-image-segmentation
+publish_venue: "International Conference on Pattern Recognition (ICPR), Montreal, Quebec, Canada"
+publish_date: 2022-11-29
+write_venue: "CBIB, 华中科技大学"
+write_date: 2024-04-11
+---
 
 本文提出了一种基于3D体素的胶囊网络3DConvCaps，应用于3D医学图像分割任务中。
 
@@ -6,7 +15,9 @@
 
 ICPR 2022
 
-Tran M, Vo-Ho V K, Le N T H. 3DConvCaps: 3DUnet with Convolutional Capsule Encoder for Medical Image Segmentation[C]//2022 26th International Conference on Pattern Recognition (ICPR). IEEE, 2022: 4392-4398.
+Tran M, Vo-Ho V K, Le N T H. 3dconvcaps: 3dunet with convolutional capsule encoder for medical image segmentation[C]//2022 26th International Conference on Pattern Recognition (ICPR). IEEE, 2022: 4392-4398.
+
+[[paper]](https://doi.org/10.1109/ICPR56361.2022.9956588) [[code]](https://github.com/UARK-AICV/3DConvCaps)
 
 ## 要点
 
@@ -31,7 +42,3 @@ Encoder浅层使用CNN提取局部特征，在深层使用胶囊网络提取高�
 ## 结论
 
 提出一种高效的网络架构3DConvCaps，该架构继承了胶囊卷积和CNN的优点，前者在高级特征上对部分-整体关系进行建模，后者在低级特征下学习短距离信息。与其它主流胶囊网络和基于3D CNN的MIS方法相比，3DConvCaps在性能和网络效率上都更高，具有更好的鲁棒性。
-
-## 在线存档
-
-https://arxiv.org/abs/2205.09299

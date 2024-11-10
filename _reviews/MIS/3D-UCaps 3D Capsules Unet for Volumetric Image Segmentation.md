@@ -1,4 +1,13 @@
-# 3D-UCaps: 3D Capsules Unet for Volumetric Image Segmentation
+---
+title: "[Review] 3D-UCaps: 3D Capsules Unet for Volumetric Image Segmentation"
+collection: reviews
+category: "医学图像分割"
+permalink: /reviews/2024-03-28-3d-ucaps-3d-capsules-unet-for-volumetric-image-segmentation
+publish_venue: "Medical Image Computing and Computer Assisted Intervention (MICCAI), Strasbourg, France"
+publish_date: 2021-09-21
+write_venue: "CBIB, 华中科技大学"
+write_date: 2024-03-28
+---
 
 本文提出了一种基于3D体素的胶囊网络3D-UCaps，应用于3D医学图像分割任务中。
 
@@ -6,7 +15,9 @@
 
 MICCAI 2021
 
-Nguyen T, Hua B S, Le N. 3d-ucaps: 3d capsules unet for volumetric image segmentation[C]//Medical Image Computing and Computer Assisted Intervention–MICCAI 2021: 24th International Conference, Strasbourg, France, September 27–October 1, 2021, Proceedings, Part I 24. Springer International Publishing, 2021: 548-558.
+Nguyen T, Hua B S, Le N. 3D-UCaps: 3D Capsules Unet for Volumetric Image Segmentation[C]//Medical Image Computing and Computer Assisted Intervention–MICCAI 2021: 24th International Conference, Strasbourg, France, September 27–October 1, 2021, Proceedings, Part I 24. Springer International Publishing, 2021: 548-558.
+
+[[source]](https://link.springer.com/chapter/10.1007/978-3-030-87193-2_52)
 
 ## 要点
 
@@ -18,8 +29,6 @@ Nguyen T, Hua B S, Le N. 3d-ucaps: 3d capsules unet for volumetric image segment
 - 集合优势
   - 既具备胶囊网络保留空域联系的能力
   - 又具备CNN学习视觉表示的能力
-
-
 
 ## 研究理由
 
@@ -54,7 +63,3 @@ CNN解码器：使用2x2x2转置卷积上采样，其它为标准3x3x3卷积。
 ## 结论
 
 提出3D-UCaps网络，它充分利用3D胶囊卷积对分割特征的建模能力，也充分发挥传统CNN解码器生成分割结果的能力。在医学图像分割领域，探索基于胶囊结构和传统CNN的混合架构是一个很有前景的研究方向，它也有助于将模型复杂度和计算成本保持在合理范围内。
-
-## 在线存档
-
-https://link.springer.com/chapter/10.1007/978-3-030-87193-2_52
