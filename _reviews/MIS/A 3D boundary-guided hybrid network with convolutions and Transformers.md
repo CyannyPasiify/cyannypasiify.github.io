@@ -2,7 +2,7 @@
 title: "[Review] A 3D boundary-guided hybrid network with convolutions and Transformers"
 collection: reviews
 category: "医学图像分割"
-permalink: /reviews/2024-10-23-a-3d-boundary-guided-hybrid-network-with-convolutions-and-transformers
+permalink: /reviews/2020-10-23-a-3d-boundary-guided-hybrid-network-with-convolutions-and-transformers
 publish_venue: "Computers in Biology and Medicine (CBM)"
 publish_date: 2024-09-01
 write_venue: "CBIB, 华中科技大学"

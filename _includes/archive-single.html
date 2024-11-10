@@ -39,8 +39,8 @@
     {% endif %}
 
         {% if post.collection == 'reviews' %}
-          <p> <i>{{ post.publish_venue }}</i>, {{ post.publish_date | default: "1900-01-01" | date: "%Y-%m" }}; </p>
-          <p> <i>写于{{ post.write_venue }}, {{ post.write_date | default: "1900-01-01" | date: "%Y-%m-%d" }}</i> </p>
+          <p> <b>{{ post.publish_venue }}, {{ post.publish_date | default: "1900-01-01" | date: "%Y-%m" }};</b> </p>
+          <p> <i>写于 {{ post.write_venue }}, {{ post.write_date | default: "1900-01-01" | date: "%Y-%m-%d" }}</i> </p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
