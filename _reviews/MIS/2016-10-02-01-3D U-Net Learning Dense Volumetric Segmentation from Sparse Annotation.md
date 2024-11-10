@@ -4,9 +4,9 @@ collection: reviews
 category: "医学图像分割"
 permalink: /reviews/2024-10-23-a-3d-boundary-guided-hybrid-network-with-convolutions-and-transformers
 publish_venue: "Medical Image Computing and Computer-Assisted Intervention (MICCAI), Athens, Greece"
-publish_date: 2016-10-2
+publish_date: 2016-10-02
 write_venue: "CBIB, 华中科技大学"
-write_date: 2024-4-1
+write_date: 2024-04-01
 ---
 
 本文提出了一种从稀疏标注的立体数据中学习三维分割的网络。

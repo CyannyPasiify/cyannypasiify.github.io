@@ -35,8 +35,8 @@ layout: default
         {% endif %}
         
         {% if page.collection == 'reviews' %}
-          <p> <b>{{ post.publish_venue }}, {{ post.publish_date | default: "1900-01-01" | date: "%Y-%m" }};</b> </p>
-          <p> <i>写于 {{ post.write_venue }}, {{ post.write_date | default: "1900-01-01" | date: "%Y-%m-%d" }}</i> </p>
+          <p> <b>{{ page.publish_venue }}, {{ page.publish_date | default: "1900-01-01" | date: "%Y-%m" }}</b> </p>
+          <p> <i>写于 {{ page.write_venue }}, {{ page.write_date | default: "1900-01-01" | date: "%Y-%m-%d" }}</i> </p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
