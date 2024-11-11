@@ -105,7 +105,7 @@ CoordConv在前两个特性（较少的参数量和高计算效率）上具备�
 
 **实验结果**。4层Conv+全连接层网络在均匀划分时泛化表现良好，但在四象限划分时完全失效。一个更小的全卷积模型可以在四象限划分时实现有限的泛化性，但却在均匀划分时表现很差。<u>相对的</u>，一个900参数的CoordConv模型（一个CoordConv层后接几个标准Conv层）可在两种划分情况下均快速收敛和良好泛化。
 
-![Supervised coordinate classification and regression](/image/reviews/An%20intriguing%20failing%20of%20convolutional%20neural%20networks%20and%20the%20CoordConv%20solution/Supervised%20coordinate%20classification%20and%20regression.png)
+![Supervised coordinate classification and regression](/images/reviews/An%20intriguing%20failing%20of%20convolutional%20neural%20networks%20and%20the%20CoordConv%20solution/Supervised%20coordinate%20classification%20and%20regression.png)
 
 ### 有监督渲染
 
@@ -121,7 +121,7 @@ CoordConv在前两个特性（较少的参数量和高计算效率）上具备�
 
 **图像合成任务**。在针对简单的2个带颜色几何形状渲染图像的合成任务中，ConvGAN出现了从二维分布到一维流形的模式崩溃。模式分布（两个几何形状中心点位置散点）崩溃到一个圈环上去了。而CoordConv GAN则能够生成对2D空间覆盖更全面的图像集合，并且仅仅使用了ConvGAN7%的参数。
 
-![Real images and generated images by GAN and CoordConv GAN](/image/reviews/An%20intriguing%20failing%20of%20convolutional%20neural%20networks%20and%20the%20CoordConv%20solution/Real%20images%20and%20generated%20images%20by%20GAN%20and%20CoordConv%20GAN.png)
+![Real images and generated images by GAN and CoordConv GAN](/images/reviews/An%20intriguing%20failing%20of%20convolutional%20neural%20networks%20and%20the%20CoordConv%20solution/Real%20images%20and%20generated%20images%20by%20GAN%20and%20CoordConv%20GAN.png)
 
 **强化学习**。将CoordConv用于强化学习时，在Atari游戏的6个项目中表现更好，2个持平和1个略微劣势。
 
