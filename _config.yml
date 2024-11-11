@@ -232,16 +232,20 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  "论文评论":
+  reviews:
+    title: "论文评论"
     output: true
     permalink: /:collection/:path/
-  "出版物":
+  publications:
+    title: "出版物"
     output: true
     permalink: /:collection/:path/
-  "作品集":
+  portfolio:
+    title: "作品集"
     output: true
     permalink: /:collection/:path/
-  "会谈":
+  talks:
+    title: "会谈"
     output: true
     permalink: /:collection/:path/
 
