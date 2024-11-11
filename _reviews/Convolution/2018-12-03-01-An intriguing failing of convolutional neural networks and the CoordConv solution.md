@@ -1,5 +1,5 @@
 ---
-title: [Review] An intriguing failing of convolutional neural networks and the CoordConv solution
+title: "[Review] An intriguing failing of convolutional neural networks and the CoordConv solution"
 collection: reviews
 category: "卷积算子设计"
 permalink: /reviews/2024-11-05-post-an-intriguing-failing-of-convolutional-neural-networks-and-the-coordconv-solution

@@ -1,5 +1,5 @@
 ---
-title: [Review] Gabor Convolutional Networks
+title: "[Review] Gabor Convolutional Networks"
 collection: reviews
 category: "卷积算子设计"
 permalink: /reviews/2024-10-28-post-gabor-convolutional-networks
