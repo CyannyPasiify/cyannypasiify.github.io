@@ -9,28 +9,6 @@ write_venue: "CBIB, 华中科技大学"
 write_date: 2024-10-28
 ---
 
-[//]: # (<!--KaTeX-->)
-
-[//]: # (  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">)
-
-[//]: # (  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>)
-
-[//]: # (  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>)
-
-[//]: # (  <script>)
-
-[//]: # (      document.addEventListener&#40;"DOMContentLoaded", function&#40;&#41; {)
-
-[//]: # (          renderMathInElement&#40;document.body, {)
-
-[//]: # (              // ...options...)
-
-[//]: # (          }&#41;;)
-
-[//]: # (      }&#41;;)
-
-[//]: # (  </script>)
-
 本文结合Gabor导向滤波器思想将其与DCNN结合，构建了Conv算子与Gabor滤波器结合的Gabor卷积方向滤波器（Convolutional Gabor Orientation Filter，GoF）参数化算子，GoF能够增强模型对方向和尺度的健壮性。与早期工作只在浅层使用不可学习的Gabor滤波器提取手工特征不同，本文首创在模型参数级别将Gabor滤波器与Conv算子耦合的方案。以GoF构建Gabor Convolutional Networks（GCN）模型，在ResNet基座中替换Conv算子后，在许多任务上展现出优于标准DCNN的性能。
 
 **提出了**一种基于标准Conv算子并根据Gabor导向滤波器思想改进的GoF算子，此算子能够对多个方向和多个尺度信息进行建模，将此算子嵌入DCNN或替换Conv算子即可显著增强模型对方向和尺度的健壮性，进一步提升模型在某些对空间变换建模有较高需求的任务上的性能，例如大目标检测和基于多方向纹理的匹配或分类。
@@ -73,7 +51,7 @@ Gabor Filters + CNN杂交。一些方法使用Gabor滤波器提取手工特征�
 
 对一个$ C_{out}\times C_{in}\times N\times W \times W$的参数化Conv算子，给定一组包含$U$个方向的Gabor滤波器，对每一个Conv算子$C_{in}\times N\times W \times W$，采用空域逐元素乘方式调制Conv算子为$U$个新算子，算子总计具有$ C_{out}\times C_{in}\times U\times N\times W \times W$个参数（论文中约定$N=U$），构成$C_{out}$个GoF组。对于$ C_{in}\times N\times H \times W$的具有$C_{in}$个通道$N$维特征图输入，同一组的$C_{in}$个$U$个方向的$N\times W\times W$卷积核，将每个方向的输出特征图求和聚合，经GoF组卷积后产生$ C_{out}\times N\left(=U\right)\times H \times W$规格的特征图输出。
 
-![Modulation process of GoFs](Assets/Modulation%20process%20of%20GoFs.png)
+![Modulation process of GoFs](/images/reviews/Gabor%20Convolutional%20Networks/Modulation%20process%20of%20GoFs.png)
 
 图中为一个$N=4,W=3$的Conv算子，调制到$U=4$个方向。
 

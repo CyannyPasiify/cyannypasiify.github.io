@@ -9,29 +9,6 @@ write_venue: "CBIB, 华中科技大学"
 write_date: 2024-10-21
 ---
 
-[//]: # (<!--KaTeX-->)
-
-[//]: # (  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">)
-
-[//]: # ()
-[//]: # (  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>)
-
-[//]: # (  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>)
-
-[//]: # (  <script>)
-
-[//]: # (      document.addEventListener&#40;"DOMContentLoaded", function&#40;&#41; {)
-
-[//]: # (          renderMathInElement&#40;document.body, {)
-
-[//]: # (              // ...options...)
-
-[//]: # (          }&#41;;)
-
-[//]: # (      }&#41;;)
-
-[//]: # (  </script>)
-
 一个全新的神经元参数化方案，基于Kolmogorov–Arnold定理的B样条非线性参数化。
 
 # 收录
@@ -68,7 +45,7 @@ MLP的理论依据是**通用近似定理（Universal Approximation Theorem，UA
 
 这个定理解释了为什么神经网络可以被应用于各种复杂的模式识别和非线性回归任务，但在实际应用中，如何设计网络结构、选择合适的激活函数和训练算法以达到所需的逼近精度仍然是重要的研究和工程问题。此外，UAT定理并没有涉及网络训练的收敛速度或是所需的训练数据量，因此它也有着它的局限性。
 
-![Compare MLP KAN](Assets/Compare%20MLP%20KAN.png)
+![Compare MLP KAN](/images/reviews/KAN%20Kolmogorov-Arnold%20Networks/Compare%20MLP%20KAN.png)
 
 上图是论文中对MLP和KAN的对比。与MLP类似，KAN实际上也具有全连接结构，区别在于，MLP在节点（神经元）上放置固定的激活函数，而KAN在边缘（权重）上放置可学习的激活函数。因此，Kolmogorov-Arnold网络完全没有线性权重矩阵：**每个权重参数都由一种可学习的一维样条函数替代**。Kolmogorov-Arnold网络的节点仅对输入信号进行求和，不进行任何非线性处理，因此在节点只需要简单的加法。而且KAN通常允许比MLP更小的计算图，论文中以PDE求解为例进行了说明：1个2层宽度为10的KAN比一个4层宽度为100的MLP精度高100倍且参数效率高100倍。
 
@@ -134,7 +111,7 @@ $$
 
 通过将激活函数的重要性可视化，可以帮助研究者和开发者更好地理解模型的工作原理，甚至发现新的数学定理。可视化KAN时根据激活函数参数的tanh激活值设置边的透明度来反映其相对重要性。
 
-![KAN visualization and pruning](Assets/KAN%20visualization%20and%20pruning.png)
+![KAN visualization and pruning](/images/reviews/KAN%20Kolmogorov-Arnold%20Networks/.png)
 
 **剪枝（Pruning）**
 

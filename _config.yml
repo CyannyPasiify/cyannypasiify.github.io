@@ -96,6 +96,8 @@ review_category:
     title: '卷积算子设计（Convolutional Operator Design）'
   'KAN':
     title: 'KAN相关（KAN Related）'
+  'Mamba':
+    title: 'Mamba相关（Mamba Related）'
   'Transformer':
     title: 'Transformer相关（Transformer Related）'
   '医学图像分割':

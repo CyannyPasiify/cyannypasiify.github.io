@@ -45,7 +45,7 @@ Wang Z. 3D Representation Methods: A Survey[J]. arXiv preprint arXiv:2410.06475,
 
 - 复合方法：复合方法集多种表示方法的优势于一体，现有复合方法包括DMTet、Tri-plane和3D高斯泼溅等，可以利用每种方法的优势更有效地处理复杂场景。
 
-  ![3D Representations](/images/reviews/3D%20Representation%20Methods%20A%20Survey/3D%20Representations.png)
+  ![3D representations](/images/reviews/3D%20Representation%20Methods%20A%20Survey/3D%20representations.png)
 
 # 3D表示方法
 

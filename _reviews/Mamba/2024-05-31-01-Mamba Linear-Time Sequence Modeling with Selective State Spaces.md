@@ -9,9 +9,7 @@ write_venue: "CBIB, 华中科技大学"
 write_date: 2024-05-27
 ---
 
-本文提出了一种新的NLP主干网络（Foundation Model，FM），基于结构化状态空间模型（structured State Space Models，SSMs，S4）的改进模型Mamba（S6）。Mamba具有随序列长度线性缩放的推断效率和可并行训练两大优势。
-
-Mamba架构在序列感知任务、语言建模、DNA建模、音频建模与生成任务中均展现出匹及Transformer的性能，是极具潜力的序列建模候选主干网络。
+本文提出了一种新的NLP主干网络（Foundation Model，FM），基于结构化状态空间模型（structured State Space Models，SSMs，S4）的改进模型Mamba（S6）。Mamba具有随序列长度线性缩放的推断效率和可并行训练两大优势。Mamba架构在序列感知任务、语言建模、DNA建模、音频建模与生成任务中均展现出匹及Transformer的性能，是极具潜力的序列建模候选主干网络。
 
 # 收录
 
@@ -20,6 +18,8 @@ arXiv preprint
 Gu A, Dao T. Mamba: Linear-Time Sequence Modeling with Selective State Spaces[J]. arXiv preprint arXiv:2312.00752, 2023.
 
 [[paper]](https://doi.org/10.48550/arXiv.2312.00752) [[code]](https://github.com/state-spaces/mamba)
+
+[[review(own)]](/files/reviews/Mamba%20Linear-Time%20Sequence%20Modeling%20with%20Selective%20State%20Spaces/Mamba动机、思想和技术.pdf)
 
 # 动机
 
@@ -31,11 +31,7 @@ RNN是一种经典的时序网络架构，它使用状态编码来记忆前驱�
 
 # 贡献点
 
-<div align="center">
-    <img src="review.assets/mamba_compromise.png" alt="mamba_compromise" width="60%">
-    <img src="review.assets/SSM.png" alt="SSM" width="39%">
-</div>
-
+![SSM](/images/reviews/Mamba%20Linear-Time%20Sequence%20Modeling%20with%20Selective%20State%20Spaces/SSM.png)
 
 ## 选择性扫描算法
 
@@ -53,11 +49,11 @@ RNN是一种经典的时序网络架构，它使用状态编码来记忆前驱�
 
 由于SSM参数中的（Δ, B, C）与输入相关，因此无法使用预计算卷积核方式，但仍可以通过并行扫描方式进行加速。由于S6模块是线性系统，其中不包含非线性层，可采用与Blelloch前缀和并行算法相似的思路，将SSM状态更新过程分治为下扫和上扫两个过程，计算层数为Log(L)，L表示序列长度。
 
-![Parallel Scan](review.assets\parallel_scan.png)
+![Parallel Scan](/images/reviews/Mamba%20Linear-Time%20Sequence%20Modeling%20with%20Selective%20State%20Spaces/Parallel%20scan.png)
 
 ## 简化SSM模块（小改进）
 
-![Mamba Block Evolution](review.assets\mamba_block_evolution.png)
+![Mamba Block Evolution](/images/reviews/Mamba%20Linear-Time%20Sequence%20Modeling%20with%20Selective%20State%20Spaces/Mamba%20block%20evolution.png)
 
 将H3和Gated MLP结构杂交为一个更加轻量化的结构，兼具二者的表征能力并提高了模块计算效率。
 
