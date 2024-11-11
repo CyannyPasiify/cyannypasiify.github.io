@@ -111,7 +111,7 @@ $$
 
 通过将激活函数的重要性可视化，可以帮助研究者和开发者更好地理解模型的工作原理，甚至发现新的数学定理。可视化KAN时根据激活函数参数的tanh激活值设置边的透明度来反映其相对重要性。
 
-![KAN visualization and pruning](/images/reviews/KAN%20Kolmogorov-Arnold%20Networks/.png)
+![KAN visualization and pruning](/images/reviews/KAN%20Kolmogorov-Arnold%20Networks/KAN%20visualization%20and%20pruning.png)
 
 **剪枝（Pruning）**
 
