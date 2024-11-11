@@ -2,7 +2,7 @@
 title: "[Review] 3D Representation Methods: A Survey"
 collection: reviews
 category: "表示学习"
-permalink: /reviews/2024-10-28-3d-representation-methods-a-survey
+permalink: /reviews/2024-10-28-post-3d-representation-methods-a-survey
 publish_venue: "arXiv preprint"
 publish_date: 2024-10-09
 write_venue: "CBIB, 华中科技大学"

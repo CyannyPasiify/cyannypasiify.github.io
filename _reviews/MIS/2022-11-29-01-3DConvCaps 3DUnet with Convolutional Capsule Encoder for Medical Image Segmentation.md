@@ -2,7 +2,7 @@
 title: "[Review] 3DConvCaps: 3DUnet with Convolutional Capsule Encoder for Medical Image Segmentation"
 collection: reviews
 category: "医学图像分割"
-permalink: /reviews/2024-04-11-3dconvcaps-3dunet-with-convolutional-capsule-encoder-for-medical-image-segmentation
+permalink: /reviews/2024-04-11-post-3dconvcaps-3dunet-with-convolutional-capsule-encoder-for-medical-image-segmentation
 publish_venue: "International Conference on Pattern Recognition (ICPR), Montreal, Quebec, Canada"
 publish_date: 2022-11-29
 write_venue: "CBIB, 华中科技大学"

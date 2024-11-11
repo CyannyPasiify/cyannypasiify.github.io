@@ -2,7 +2,7 @@
 title: "[Review] 3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation"
 collection: reviews
 category: "医学图像分割"
-permalink: /reviews/2024-04-01-3d-u-net-learning-dense-volumetric-segmentation-from-sparse-annotation
+permalink: /reviews/2024-04-01-post-3d-u-net-learning-dense-volumetric-segmentation-from-sparse-annotation
 publish_venue: "Medical Image Computing and Computer-Assisted Intervention (MICCAI), Athens, Greece"
 publish_date: 2016-10-02
 write_venue: "CBIB, 华中科技大学"

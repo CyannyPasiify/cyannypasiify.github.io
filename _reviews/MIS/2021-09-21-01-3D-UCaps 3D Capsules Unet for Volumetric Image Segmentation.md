@@ -2,7 +2,7 @@
 title: "[Review] 3D-UCaps: 3D Capsules Unet for Volumetric Image Segmentation"
 collection: reviews
 category: "医学图像分割"
-permalink: /reviews/2024-03-28-3d-ucaps-3d-capsules-unet-for-volumetric-image-segmentation
+permalink: /reviews/2024-03-28-post-3d-ucaps-3d-capsules-unet-for-volumetric-image-segmentation
 publish_venue: "Medical Image Computing and Computer Assisted Intervention (MICCAI), Strasbourg, France"
 publish_date: 2021-09-21
 write_venue: "CBIB, 华中科技大学"
