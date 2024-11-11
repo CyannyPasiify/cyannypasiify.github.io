@@ -26,7 +26,7 @@ author_profile: true
 {% endfor %}
 {% endfor %}
 
-<h2>博客文章</h2>
+<h2>博客</h2>
 {% for post in site.posts %}
   {% include archive-single.html %}
 {% endfor %}
