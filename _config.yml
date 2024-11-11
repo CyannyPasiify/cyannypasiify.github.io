@@ -28,7 +28,7 @@ author:
   location         : "武汉, 湖北, 中国"
   employer         : "华中科技大学"
   uri              : # URL
-  email            : "cyannypasiify@foxmail.com" 
+  email            : "cyannypasiify@foxmail.com"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -45,8 +45,8 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "cyannypasiify"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   bluesky          : # Replace this with you Bluesky username
@@ -232,16 +232,16 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  reviews:
+  "论文评论":
     output: true
     permalink: /:collection/:path/
-  publications:
+  "出版物":
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  "作品集":
     output: true
     permalink: /:collection/:path/
-  talks:
+  "会谈":
     output: true
     permalink: /:collection/:path/
 

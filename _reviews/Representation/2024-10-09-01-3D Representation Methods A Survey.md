@@ -1,6 +1,6 @@
 ---
 title: "[Review] 3D Representation Methods: A Survey"
-collection: reviews
+collection: "论文评论"
 category: "表示学习"
 permalink: /reviews/2024-10-28-post-3d-representation-methods-a-survey
 publish_venue: "arXiv preprint"

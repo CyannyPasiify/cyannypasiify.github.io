@@ -1,6 +1,6 @@
 ---
 title: "[Review] An intriguing failing of convolutional neural networks and the CoordConv solution"
-collection: reviews
+collection: "论文评论"
 category: "卷积算子设计"
 permalink: /reviews/2024-11-05-post-an-intriguing-failing-of-convolutional-neural-networks-and-the-coordconv-solution
 publish_venue: "Advances in neural information processing systems (NeurIPS), Montreal, Quebec, Canada"

@@ -1,6 +1,6 @@
 ---
 title: "[Review] Gabor Convolutional Networks"
-collection: reviews
+collection: "论文评论"
 category: "卷积算子设计"
 permalink: /reviews/2024-10-28-post-gabor-convolutional-networks
 publish_venue: "IEEE Transactions on Image Processing"

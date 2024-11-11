@@ -1,6 +1,6 @@
 ---
 title: "[Review] Mamba: Linear-Time Sequence Modeling with Selective State Spaces"
-collection: reviews
+collection: "论文评论"
 category: "Mamba"
 permalink: /reviews/2024-05-27-mamba-linear-time-sequence-modeling-with-selective-state-spaces
 publish_venue: "arXiv preprint"

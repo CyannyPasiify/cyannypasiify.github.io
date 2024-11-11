@@ -1,6 +1,6 @@
 ---
 title: "[Review] KAN: Kolmogorov–Arnold Networks"
-collection: reviews
+collection: "论文评论"
 category: "KAN"
 permalink: /reviews/2024-10-21-post-kan-kolmogorov-arnold-networks
 publish_venue: "arXiv preprint"
