@@ -49,7 +49,7 @@ Gabor Filters + CNN杂交。一些方法使用Gabor滤波器提取手工特征�
 
 ## 从Conv参数调制生成GoF算子
 
-对一个$ C_{out}\times C_{in}\times N\times W \times W$的参数化Conv算子，给定一组包含$U$个方向的Gabor滤波器，对每一个Conv算子$C_{in}\times N\times W \times W$，采用空域逐元素乘方式调制Conv算子为$U$个新算子，算子总计具有$ C_{out}\times C_{in}\times U\times N\times W \times W$个参数（论文中约定$N=U$），构成$C_{out}$个GoF组。对于$ C_{in}\times N\times H \times W$的具有$C_{in}$个通道$N$维特征图输入，同一组的$C_{in}$个$U$个方向的$N\times W\times W$卷积核，将每个方向的输出特征图求和聚合，经GoF组卷积后产生$ C_{out}\times N\left(=U\right)\times H \times W$规格的特征图输出。
+对一个$$ C_{out}\times C_{in}\times N\times W \times W$$的参数化Conv算子，给定一组包含$$U$$个方向的Gabor滤波器，对每一个Conv算子$$C_{in}\times N\times W \times W$$，采用空域逐元素乘方式调制Conv算子为$$U$$个新算子，算子总计具有$$ C_{out}\times C_{in}\times U\times N\times W \times W$$个参数（论文中约定$$N=U$$），构成$$C_{out}$$个GoF组。对于$$ C_{in}\times N\times H \times W$$的具有$$C_{in}$$个通道$$N$$维特征图输入，同一组的$$C_{in}$$个$$U$$个方向的$$N\times W\times W$$卷积核，将每个方向的输出特征图求和聚合，经GoF组卷积后产生$$ C_{out}\times N\left(=U\right)\times H \times W$$规格的特征图输出。
 
 ![Modulation process of GoFs](/images/reviews/Gabor%20Convolutional%20Networks/Modulation%20process%20of%20GoFs.png)
 
@@ -57,7 +57,7 @@ Gabor Filters + CNN杂交。一些方法使用Gabor滤波器提取手工特征�
 
 ## GoF优化更新
 
-GoF的可学习参数仅限于其内含的卷积核参数$C_{i,o}$，它通过多方向尺度的Gabor调制生成GoF，所以实际可学习参数更少。梯度计算只需在每个通道内将各方向GoF子滤波器的梯度按Gabor滤波器权重加和。
+GoF的可学习参数仅限于其内含的卷积核参数$$C_{i,o}$$，它通过多方向尺度的Gabor调制生成GoF，所以实际可学习参数更少。梯度计算只需在每个通道内将各方向GoF子滤波器的梯度按Gabor滤波器权重加和。
 
 $$
 \delta=\frac{\partial L}{\partial C_{i,o}} = \sum_{u=1}^{U}{\frac{\partial L}{\partial C_{i,u}}\circ G\left(u,v\right)}
@@ -67,7 +67,7 @@ $$
 C_{i,o}=C_{i,o}-\eta\delta
 $$
 
-式中，$L$表示损失函数，$G\left(u,v\right)$表示$u$方向$v$尺度的Gabor模板。
+式中，$$L$$表示损失函数，$$G\left(u,v\right)$$表示$$u$$方向$$v$$尺度的Gabor模板。
 
 ## 实验
 
