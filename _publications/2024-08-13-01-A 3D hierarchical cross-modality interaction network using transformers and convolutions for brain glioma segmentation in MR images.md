@@ -3,8 +3,7 @@ title: "A 3D hierarchical cross-modality interaction network using transformers 
 collection: publications
 category: "期刊论文"
 permalink: /publication/2024-08-13-01-a-3d-hierarchical-cross-modality-interaction-network-using-transformers-and-convolutions-for-brain-glioma-segmentation-in-mr-images
-excerpt: '
-### Background
+excerpt: '### Background
 
 Precise glioma segmentation from multi-parametric magnetic resonance (MR) images is essential for brain glioma
 diagnosis. However, due to the indistinct boundaries between tumor sub-regions and the heterogeneous appearances of
@@ -21,7 +20,8 @@ using Transformers and convolutions for accurate multi-modal glioma segmentation
 hierarchical cross-modality interaction strategy to sufficiently learn modality-specific and modality-shared knowledge
 correlated to glioma sub-region segmentation from multi-parametric MR images.
 
-#### Methods
+### Methods
+
 In the HCMINet, we first design a hierarchical cross-modality interaction Transformer (HCMITrans) encoder to
 hierarchically encode and fuse heterogeneous multi-modal features by Transformer-based intra-modal embeddings and
 inter-modal interactions in multiple encoding stages, which effectively captures complex cross-modality correlations
@@ -33,13 +33,14 @@ the local-global context fusion (LGCF) module to efficiently alleviate the conte
 features.
 
 ### Results
+
 Extensive experiments are conducted on two public and competitive glioma benchmark datasets, including the BraTS2020
 dataset with 494 patients and the BraTS2021 dataset with 1251 patients. Results show that our proposed method
 outperforms existing Transformer-based and CNN-based methods using other multi-modal fusion strategies in our
 experiments. Specifically, the proposed HCMINet achieves state-of-the-art mean DSC values of 85.33% and 91.09% on the
 BraTS2020 online validation dataset and the BraTS2021 local testing dataset, respectively.
 
-#### Conclusions
+### Conclusions
 
 Our proposed method can accurately and automatically segment glioma regions from multi-parametric MR images, which is
 beneficial for the quantitative analysis of brain gliomas and helpful for reducing the annotation burden of
