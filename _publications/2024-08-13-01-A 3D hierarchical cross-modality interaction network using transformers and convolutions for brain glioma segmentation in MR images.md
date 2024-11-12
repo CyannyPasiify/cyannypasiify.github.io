@@ -16,10 +16,12 @@ Although existing 3D Transformer-based or convolution-based segmentation network
 multi-modal feature fusion strategies or contextual learning methods, they widely lack the capability of hierarchical
 interactions between different modalities and cannot effectively learn comprehensive feature representations related to
 all glioma sub-regions.
+
 To overcome these problems, in this paper, we propose a 3D hierarchical cross-modality interaction network (HCMINet)
 using Transformers and convolutions for accurate multi-modal glioma segmentation, which leverages an effective
 hierarchical cross-modality interaction strategy to sufficiently learn modality-specific and modality-shared knowledge
 correlated to glioma sub-region segmentation from multi-parametric MR images.
+
 Extensive experiments are conducted on two public and competitive glioma benchmark datasets, including the BraTS2020
 dataset with 494 patients and the BraTS2021 dataset with 1251 patients. Results show that our proposed method
 outperforms existing Transformer-based and CNN-based methods using other multi-modal fusion strategies in our
