@@ -49,17 +49,17 @@ layout: default
         {{ content }}
 
         {% if page.citation and page.paperurl and page.codeurl %}
-          <p>引用: {{ page.citation }}<br /><a href="{{ page.paperurl }}">[paper]</a> | <a href="{{ page.slidesurl }}">[code]</a></p>
+          <p>引用: {{ page.citation }}<br /><a href="{{ page.paperurl }}">[paper]</a> | <a href="{{ page.codeurl }}">[code]</a></p>
         {% elsif page.citation and page.paperurl %}
           <p>引用: {{ page.citation }}<br /><a href="{{ page.paperurl }}">[paper]</a></p>
         {% elsif page.citation and page.codeurl %}
-          <p>引用: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">[code]</a></p>
+          <p>引用: {{ page.citation }}<br /><a href="{{ page.codeurl }}">[code]</a></p>
         {% elsif page.citation %}
           <p>引用: {{ page.citation }}</p>
         {% elsif page.paperurl %}
           <p><a href=" {{ page.paperurl }} ">[paper]</a></p>
-        {% elsif page.slidesurl %}
-          <p><a href="{{ page.slidesurl }}">[code]</a></p>
+        {% elsif page.codeurl %}
+          <p><a href="{{ page.codeurl }}">[code]</a></p>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
