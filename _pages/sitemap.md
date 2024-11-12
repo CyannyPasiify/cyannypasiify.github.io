@@ -9,6 +9,16 @@ author_profile: true
 
 本页提供网站中全部页面的链接列表。摘录清单可参见[XML]({{ base_path }}/sitemap.xml)。
 
+<h2>杂项页面</h2>
+{% for post in site.pages %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2>博客</h2>
+{% for post in site.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
 {% capture written_label %}'None'{% endcapture %}
 
 {% for collection in site.collections %}
@@ -24,14 +34,4 @@ author_profile: true
   {% include archive-single.html %}
   {% endunless %}
 {% endfor %}
-{% endfor %}
-
-<h2>博客</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-<h2>杂项页面</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
 {% endfor %}
