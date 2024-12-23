@@ -102,6 +102,8 @@ review_category:
     title: 'Transformer相关（Transformer Related）'
   '医学图像分割':
     title: '医学图像分割（Medical Image Segmentation）'
+  '综述':
+    title: '综述（Survey）'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
