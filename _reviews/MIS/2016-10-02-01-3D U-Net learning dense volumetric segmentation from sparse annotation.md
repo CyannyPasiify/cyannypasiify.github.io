@@ -1,5 +1,5 @@
 ---
-title: "[Review] 3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation"
+title: "[Review] 3D U-Net: learning dense volumetric segmentation from sparse annotation"
 collection: "论文评论"
 category: "医学图像分割"
 permalink: /reviews/2024-04-01-post-3d-u-net-learning-dense-volumetric-segmentation-from-sparse-annotation
@@ -15,7 +15,7 @@ write_date: 2024-04-01
 
 MICCAI 2016
 
-Çiçek Ö, Abdulkadir A, Lienkamp S S, et al. 3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation[C]//Medical Image Computing and Computer-Assisted Intervention–MICCAI 2016: 19th International Conference, Athens, Greece, October 17-21, 2016, Proceedings, Part II 19. Springer International Publishing, 2016: 424-432.
+Çiçek Ö, Abdulkadir A, Lienkamp S S, et al. 3D U-Net: learning dense volumetric segmentation from sparse annotation[C]//Medical Image Computing and Computer-Assisted Intervention–MICCAI 2016: 19th International Conference, Athens, Greece, October 17-21, 2016, Proceedings, Part II 19. Springer International Publishing, 2016: 424-432.
 
 [[paper]](https://doi.org/10.1007/978-3-319-46723-8_49) [[code(community)]](https://github.com/ellisdg/3DUnetCNN)
 

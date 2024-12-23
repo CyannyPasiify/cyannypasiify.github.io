@@ -1,5 +1,5 @@
 ---
-title: "[Review] A 3D boundary-guided hybrid network with convolutions and Transformers"
+title: "[Review] A 3D boundary-guided hybrid network with convolutions and Transformers for lung tumor segmentation in CT images"
 collection: "论文评论"
 category: "医学图像分割"
 permalink: /reviews/2024-10-23-post-a-3d-boundary-guided-hybrid-network-with-convolutions-and-transformers

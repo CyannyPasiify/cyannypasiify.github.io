@@ -1,5 +1,5 @@
 ---
-title: "[Review] 3DConvCaps: 3DUnet with Convolutional Capsule Encoder for Medical Image Segmentation"
+title: "[Review] 3DConvCaps: 3DUnet with convolutional capsule encoder for medical image segmentation"
 collection: "论文评论"
 category: "医学图像分割"
 permalink: /reviews/2024-04-11-post-3dconvcaps-3dunet-with-convolutional-capsule-encoder-for-medical-image-segmentation
@@ -15,7 +15,7 @@ write_date: 2024-04-11
 
 ICPR 2022
 
-Tran M, Vo-Ho V K, Le N T H. 3dconvcaps: 3dunet with convolutional capsule encoder for medical image segmentation[C]//2022 26th International Conference on Pattern Recognition (ICPR). IEEE, 2022: 4392-4398.
+Tran M, Vo-Ho V K, Le N T H. 3DConvCaps: 3DUnet with convolutional capsule encoder for medical image segmentation[C]//2022 26th International Conference on Pattern Recognition (ICPR). IEEE, 2022: 4392-4398.
 
 [[paper]](https://doi.org/10.1109/ICPR56361.2022.9956588) [[code]](https://github.com/UARK-AICV/3DConvCaps)
 

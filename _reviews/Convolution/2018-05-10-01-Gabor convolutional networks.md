@@ -1,5 +1,5 @@
 ---
-title: "[Review] Gabor Convolutional Networks"
+title: "[Review] Gabor convolutional networks"
 collection: "论文评论"
 category: "卷积算子设计"
 permalink: /reviews/2024-10-28-post-gabor-convolutional-networks
@@ -19,7 +19,7 @@ write_date: 2024-10-28
 
 IEEE Transactions on Image Processing 2018
 
-Luan S, Chen C, Zhang B, et al. Gabor Convolutional Networks[J]. IEEE Transactions on Image Processing, 2018, 27(9): 4357-4366.
+Luan S, Chen C, Zhang B, et al. Gabor convolutional networks[J]. IEEE Transactions on Image Processing, 2018, 27(9): 4357-4366.
 
 [[paper]](https://doi.org/10.1109/TIP.2018.2835143) [[code]](https://github.com/jxgu1016/Gabor_CNN_PyTorch)
 

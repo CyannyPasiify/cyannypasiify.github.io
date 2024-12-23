@@ -1,5 +1,5 @@
 ---
-title: "[Review] 3D-UCaps: 3D Capsules Unet for Volumetric Image Segmentation"
+title: "[Review] 3D-UCaps: 3D capsules Unet for volumetric image segmentation"
 collection: "论文评论"
 category: "医学图像分割"
 permalink: /reviews/2024-03-28-post-3d-ucaps-3d-capsules-unet-for-volumetric-image-segmentation
@@ -15,7 +15,7 @@ write_date: 2024-03-28
 
 MICCAI 2021
 
-Nguyen T, Hua B S, Le N. 3D-UCaps: 3D Capsules Unet for Volumetric Image Segmentation[C]//Medical Image Computing and Computer Assisted Intervention–MICCAI 2021: 24th International Conference, Strasbourg, France, September 27–October 1, 2021, Proceedings, Part I 24. Springer International Publishing, 2021: 548-558.
+Nguyen T, Hua B S, Le N. 3D-UCaps: 3D capsules Unet for volumetric image segmentation[C]//Medical Image Computing and Computer Assisted Intervention–MICCAI 2021: 24th International Conference, Strasbourg, France, September 27–October 1, 2021, Proceedings, Part I 24. Springer International Publishing, 2021: 548-558.
 
 [[paper]](https://doi.org/10.1007/978-3-030-87193-2_52) [[code]](https://github.com/VinAIResearch/3D-UCaps)
 

@@ -1,5 +1,5 @@
 ---
-title: "[Review] KAN: Kolmogorov–Arnold Networks"
+title: "[Review] KAN: Kolmogorov–Arnold networks"
 collection: "论文评论"
 category: "KAN"
 permalink: /reviews/2024-10-21-post-kan-kolmogorov-arnold-networks
@@ -15,7 +15,7 @@ write_date: 2024-10-21
 
 arXiv preprint
 
-Liu Z, Wang Y, Vaidya S, et al. Kan: Kolmogorov-arnold networks[J]. arXiv preprint arXiv:2404.19756, 2024.
+Liu Z, Wang Y, Vaidya S, et al. KAN: Kolmogorov-Arnold networks[J]. arXiv preprint arXiv:2404.19756, 2024.
 
 [[paper]](https://doi.org/10.48550/arXiv.2404.19756) [[code]](https://github.com/KindXiaoming/pykan)
 

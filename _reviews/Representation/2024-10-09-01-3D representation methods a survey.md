@@ -1,5 +1,5 @@
 ---
-title: "[Review] 3D Representation Methods: A Survey"
+title: "[Review] 3D representation methods: a survey"
 collection: "论文评论"
 category: "表示学习"
 permalink: /reviews/2024-10-28-post-3d-representation-methods-a-survey
@@ -17,7 +17,7 @@ write_date: 2024-10-28
 
 arXiv preprint 2024 (Preliminary Draft)
 
-Wang Z. 3D Representation Methods: A Survey[J]. arXiv preprint arXiv:2410.06475, 2024.
+Wang Z. 3D representation methods: a survey[J]. arXiv preprint arXiv:2410.06475, 2024.
 
 [[paper]](https://doi.org/10.48550/arXiv.2410.06475)
 

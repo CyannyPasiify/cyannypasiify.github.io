@@ -2,7 +2,7 @@
 title: "[Survey] 风格化影像合成技术"
 collection: "论文评论"
 category: "综述"
-permalink: /reviews/2024-12-23-01-风格化影像合成技术
+permalink: /reviews/2024-12-23-01-stylized-image-synthesis-a-survey
 publish_venue: "Owned"
 publish_date: 2024-12-23
 write_venue: "CBIB, 华中科技大学"
