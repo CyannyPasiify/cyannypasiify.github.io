@@ -1,5 +1,5 @@
 ---
-title: "Just A Placeholder"
+title: "A 3D hierarchical cross‐modality interaction network using transformers and convolutions for brain glioma segmentation in MR images"
 collection: publications
 category: "期刊论文"
 keywords:
@@ -8,7 +8,7 @@ keywords:
   - 'MR images'
   - 'multi-modal feature fusion'
   - 'vision transformer'
-permalink: /publication/2024-08-13-01-just-a-placeholder
+permalink: /publication/2024-08-13-01-a-3d-hierarchical-cross‐modality-interaction-network-using-transformers-and-convolutions-for-brain-glioma-segmentation-in-mr-images
 excerpt: 'Precise glioma segmentation from multi-parametric magnetic resonance (MR) images is essential for brain glioma
 diagnosis. However, due to the indistinct boundaries between tumor sub-regions and the heterogeneous appearances of
 gliomas in volumetric MR scans, designing a reliable and automated glioma segmentation method is still challenging.
