@@ -17,7 +17,7 @@ arXiv preprint
 
 Gu A, Dao T. Mamba: linear-time sequence modeling with selective state spaces[J]. arXiv preprint arXiv:2312.00752, 2023.
 
-[[paper]](https://doi.org/10.48550/arXiv.2312.00752) [[code]](https://github.com/state-spaces/mamba) [[review(own)]](/files/reviews/Mamba%20Linear-Time%20Sequence%20Modeling%20with%20Selective%20State%20Spaces/Mamba动机、思想和技术.pdf)
+[[paper]](https://doi.org/10.48550/arXiv.2312.00752) [[code]](https://github.com/state-spaces/mamba) [[review(own)]](/files/reviews/Mamba%20linear-time%20sequence%20modeling%20with%20selective%20state%20spaces/Mamba动机、思想和技术.pdf)
 
 # 动机
 
