@@ -56,7 +56,7 @@ Mu N, Lyu Z, Rezaeitaleshmahalleh M, et al. An attention residual u-net with dif
 ## 意义
 
 - 最终目标：对低/高破裂风险的动脉瘤进行鉴别，以便只对高破裂风险动脉瘤进行立即干预。
-- 实用目标：computational hemodynamics（计算血流动力学分析，又称computational fluid dynamics [CFD]）requires an anatomically（解剖学） accurate vasculature model with the following characteristics: 1) water-tight, 2) includes all essential arteries, and 3) exhibits correct vessel connections 要求提供解剖结构精确的脉管系统模型，重要的是3)显示正确的血管连接。如下所示，3DUnet和nnU-Net基线都产生了错误的连接预测。目标情景对异常结构敏感性高，因此可以牺牲常规性能（例如DICE等）力求CFD可靠。
+- 实用目标：computational hemodynamics（计算血流动力学分析，又称computational fluid dynamics [CFD]）requires an anatomically（解剖学） accurate vasculature model with the following characteristics: 1) water-tight, 2) includes all essential arteries, and 3) exhibits correct vessel connections 要求提供解剖结构精确的脉管系统模型，重要的是3)显示正确的血管连接。如图所示，3DUnet和nnU-Net基线都产生了错误的连接预测。目标情景对异常结构敏感性高，因此可以牺牲常规性能（例如DICE等）力求CFD可靠。
 
 # 主要内容
 
