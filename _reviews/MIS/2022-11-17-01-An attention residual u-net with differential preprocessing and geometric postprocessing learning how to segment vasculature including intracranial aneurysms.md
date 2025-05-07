@@ -17,7 +17,7 @@ MIA 2023
 
 Mu N, Lyu Z, Rezaeitaleshmahalleh M, et al. An attention residual u-net with differential preprocessing and geometric postprocessing: Learning how to segment vasculature including intracranial aneurysms[J]. Medical image analysis, 2023, 84: 102697.
 
-[[paper]](https://doi.org/10.1016/j.media.2022.102697) [[paper(local)]](files/reviews/ARU-Net/An%20attention%20residual%20u-net%20with%20differential%20preprocessing%20and%20geometric%20postprocessing%20learning%20how%20to%20segment%20vasculature%20including%20intracranial%20aneurysms.pdf)
+[[paper]](https://doi.org/10.1016/j.media.2022.102697) [[paper(local)]](/files/reviews/ARU-Net/An%20attention%20residual%20u-net%20with%20differential%20preprocessing%20and%20geometric%20postprocessing%20learning%20how%20to%20segment%20vasculature%20including%20intracranial%20aneurysms.pdf)
 
 # 要点
 
@@ -49,7 +49,7 @@ Mu N, Lyu Z, Rezaeitaleshmahalleh M, et al. An attention residual u-net with dif
 
 - When convolutions are applied to a receptive region belonging to different vessels but containing similar intensity values, spatial context post-convolutions may further amplify the neighborhood dependencies, causing unwanted adhesions/connections between neighboring vessels 卷积用于包含不同血管的感受区域时，如果这些血管有相似的强度值，后（模型架构中靠后的，解码阶段）空域卷积可能过度放大邻近依赖导致预测出异常的邻近血管粘连（图d蓝色箭头）。通过3DCRF条件随机场后处理缓解此问题。
 
-  ![image-20250507093757939](images/reviews/An%20attention%20residual%20u-net%20with%20differential%20preprocessing%20and%20geometric%20postprocessing%20learning%20how%20to%20segment%20vasculature%20including%20intracranial%20aneurysms/vessel_connection_error.jpg)
+  ![image-20250507093757939](/images/reviews/An%20attention%20residual%20u-net%20with%20differential%20preprocessing%20and%20geometric%20postprocessing%20learning%20how%20to%20segment%20vasculature%20including%20intracranial%20aneurysms/vessel_connection_error.jpg)
 
 ## 意义
 
@@ -72,7 +72,7 @@ Mu N, Lyu Z, Rezaeitaleshmahalleh M, et al. An attention residual u-net with dif
 
 ## 架构修改
 
-![ARU-Net](images/reviews/An%20attention%20residual%20u-net%20with%20differential%20preprocessing%20and%20geometric%20postprocessing%20learning%20how%20to%20segment%20vasculature%20including%20intracranial%20aneurysms/ARU-Net.png)
+![ARU-Net](/images/reviews/An%20attention%20residual%20u-net%20with%20differential%20preprocessing%20and%20geometric%20postprocessing%20learning%20how%20to%20segment%20vasculature%20including%20intracranial%20aneurysms/ARU-Net.png)
 
 编码器每级和解码器每级都使用短连接。
 
