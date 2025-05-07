@@ -27,9 +27,9 @@ Mu N, Lyu Z, Rezaeitaleshmahalleh M, et al. An attention residual u-net with dif
 
 创新点：
 -  模态：3D rotational angiography (3DRA) images 3D旋转造影。
--  架构创新：attention residual U-Net (ARU-Net) 注意力残差UNet。
--  预处理：differential preprocessing 可微预处理。
--  后处理：geometric postprocessing 几何学后处理。
+-  架构创新：attention residual U-Net (ARU-Net) 注意力门控残差UNet。
+-  预处理：differential preprocessing 一种可微分的边缘强化预处理。
+-  后处理：geometric postprocessing 3D条件随机场和CRF&连通域优化CCO后处理。
 
 这是一项领域特定优化：DICE等传统指标没有主流模型高，但ARU-Net对小血管和管壁细节保留效果更好，在计算血流动力学分析时不易失效，且与人工标注取得的血流动力学指标相关性更高。
 
