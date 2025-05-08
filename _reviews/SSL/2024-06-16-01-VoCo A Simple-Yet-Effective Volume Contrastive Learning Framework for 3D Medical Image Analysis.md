@@ -17,7 +17,7 @@ VoCo即本文提出的**Vo**lume **Co**ntrast Framework自监督学习（SSL）�
 
 Wu L, Zhuang J, Chen H. Voco: A simple-yet-effective volume contrastive learning framework for 3d medical image analysis[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024: 22873-22882.
 
-[[paper]](https://doi.org/10.1109/CVPR52733.2024.02158) [[paper(self copy)](/files/reviews/VoCo_MedSSL/Voco%20a%20simple%20yet%20effective%20volume%20contrastive%20learning%20framework%20for%203d%20medical%20image%20analysis.pdf)] [[code]](https://github.com/Luffy03/VoCo)
+[[paper]](https://doi.org/10.1109/CVPR52733.2024.02158) [[paper(self copy)](/files/reviews/VoCo_MedSSL/VoCo%20a%20simple%20yet%20effective%20volume%20contrastive%20learning%20framework%20for%203d%20medical%20image%20analysis.pdf)] [[code]](https://github.com/Luffy03/VoCo)
 
 # 贡献点
 
