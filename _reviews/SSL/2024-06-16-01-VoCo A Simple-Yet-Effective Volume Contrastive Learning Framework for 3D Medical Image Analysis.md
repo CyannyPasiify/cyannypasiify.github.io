@@ -60,7 +60,7 @@ $$
 给定自监督n类标签向量$y$（$y_i$表示第i类的标签值），预测路径的损失函数为
 
 $$
-L_{pred}=-\frac 1 n \sum^{n}_{i\isin n}{log}\left(1-\lvert y_i-l_i \rvert\right)
+L_{pred}=-\frac 1 n \sum^{n}_{i\in n}{log}\left(1-\lvert y_i-l_i \rvert\right)
 $$
 
 类似的，使用余弦相似度计算每对基切片间的相似度，基切片i,j间的相似度$s_{ij}$为
