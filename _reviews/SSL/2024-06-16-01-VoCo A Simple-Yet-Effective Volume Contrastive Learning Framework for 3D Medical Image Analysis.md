@@ -17,7 +17,7 @@ VoCo即本文提出的**Vo**lume **Co**ntrast Framework自监督学习（SSL）�
 
 Wu L, Zhuang J, Chen H. Voco: A simple-yet-effective volume contrastive learning framework for 3d medical image analysis[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024: 22873-22882.
 
-[[paper]](https://doi.org/10.1109/CVPR52733.2024.02158) [[paper(self copy)](/files/reviews/VoCo_MedSSL/VoCo%20a%20simple%20yet%20effective%20volume%20contrastive%20learning%20framework%20for%203d%20medical%20image%20analysis.pdf)] [[code]](https://github.com/Luffy03/VoCo)
+[[paper]](https://doi.org/10.1109/CVPR52733.2024.02158) [[paper(self copy)]](/files/reviews/VoCo_MedSSL/VoCo%20a%20simple-yet-effective%20volume%20contrastive%20learning%20framework%20for%203d%20medical%20image%20analysis.pdf) [[code]](https://github.com/Luffy03/VoCo)
 
 # 贡献点
 
@@ -41,13 +41,13 @@ Wu L, Zhuang J, Chen H. Voco: A simple-yet-effective volume contrastive learning
 
 两条监督路径。右上方的预测路径（Prediction）中计算随机切片与每个基切片的相似度，并向自监督标签优化，其logits结果反映了随机切片属于哪些伪类。右下方的正则化路径（Regularization）两两成对计算基切片间的相似度，并尽量拉开基切片的语义间距，将它们向彼此无关（正交）的方向优化，这一路径的目的是让每个伪类变得能够区分，成为事实上可分的类。
 
-![VoCo_Arch](/images/reviews/VoCo%20a%20simple%20yet%20effective%20volume%20contrastive%20learning%20framework%20for%203d%20medical%20image%20analysis/VoCo_arch.png)
+![VoCo_Arch](/images/reviews/VoCo%20a%20simple-yet-effective%20volume%20contrastive%20learning%20framework%20for%203d%20medical%20image%20analysis/VoCo_arch.png)
 
 ## 自监督标签生成
 
 随机切片的规格与基切片相同，它最多可与4个基切片部分重叠，如图所示。根据随机切片与基切片的重叠体积赋予标签值，例如图中随机切片在5、6、9、10类上的标签值依次是0.25、0.1、0.5、0.15，而在其它类上的标签值都是0。
 
-![label_gen](/images/reviews/VoCo%20a%20simple%20yet%20effective%20volume%20contrastive%20learning%20framework%20for%203d%20medical%20image%20analysis/label_gen.png)
+![label_gen](/images/reviews/VoCo%20a%20simple-yet-effective%20volume%20contrastive%20learning%20framework%20for%203d%20medical%20image%20analysis/label_gen.png)
 
 ## 相似度计算和损失函数
 

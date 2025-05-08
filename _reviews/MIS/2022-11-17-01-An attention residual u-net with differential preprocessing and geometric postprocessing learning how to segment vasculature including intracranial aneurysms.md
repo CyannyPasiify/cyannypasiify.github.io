@@ -9,8 +9,6 @@ write_venue: "理想家园, 南昌"
 write_date: 2025-05-07
 ---
 
-# [Review] An attention residual u-net with differential preprocessing and geometric postprocessing: learning how to segment vasculature including intracranial aneurysms
-
 本文提出了一种使用边缘强化预处理、注意力门控和长短跳跃连接聚合特征的ARU-Net网络、3D条件随机场和连通域优化后处理的综合性分割方法。此方法是一项领域特定优化（针对计算血流动力学分析），它在DICE等传统指标上没有主流模型高，但ARU-Net对小血管和管壁细节保留效果更好，在计算血流动力学分析时不易失效，且与人工标注取得的血流动力学指标相关性更高。
 
 # 收录
