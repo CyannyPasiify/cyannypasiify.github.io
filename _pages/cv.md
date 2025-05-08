@@ -4,10 +4,7 @@ title: "简历"
 permalink: /
 author_profile: true
 redirect_from:
-  - /resume
-  - /cv
   - /index.html
-  - /about
   - /about.html
 ---
 
