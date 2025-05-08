@@ -65,7 +65,7 @@ s_{ij}={CosSim}\left(q_i,q_j\right)=\frac{q_i\cdot q_j}{\lVert q_i \rVert \lVert
 $$
 正则路径的损失函数体现为这些成对基切片相似度的总和
 $$
-L_{reg}=-\frac 2 {n\left(n-1\right)} \sum^{n}_{{i,j} \isin n, i\ne j}\lvert s_{ij} \rvert
+L_{reg}=-\frac 2 {n\left(n-1\right)} \sum^{n}_{ {i,j} \isin n, i\ne j }\lvert s_{ij} \rvert
 $$
 正则路径优化的最终目标是让所有基切片的嵌入向量（伪类表征）两两正交，即
 $$
